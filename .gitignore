@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+*.egg-info/
+dist/
+build/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+kansi_env/
+
+# Large data files
+*.csv
+*.json
+data/original_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files and checkpoints
+models/
+ccpoem_classifier/
+*.model
+*.pkl
+*.h5
+*.pb
+*.safetensors
+*.pt
+checkpoint-*/
+
+# Log files
+*.log
+logs/
+
+# Backup files
+*_backup*
+*_before_*
+*.bak
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs
+train_*results*.log
+quick_results.log
+predict_demo.log
+training_results_*.log
+
+# Temporary training files
+train_backup.py
+train_optimized.py
+train_complete_results.log
+train_final_results.log
+train_optimized_results.log
